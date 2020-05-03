@@ -7,4 +7,4 @@
 
 1.在 build.gradle 中添加对该库的依赖。
 
-	implementation 'com.github.Satsna:TitleBarLibrary:1.0.1'
+	implementation 'com.github.Satsna:AndroidUtilsLibrary:1.0.0'
