@@ -17,5 +17,7 @@ public class MainActivity extends Activity {
         ImageView iv=findViewById(R.id.iv);
         String url="http://i0.hdslb.com/bfs/archive/839b48daee6bed189d49aa6eac912b353ce0db3d.jpg";
         GlideUtil.load(this,url,iv);
+//        GlideUtil.load(this,iv);
+
     }
 }
