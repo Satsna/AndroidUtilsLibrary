@@ -36,5 +36,7 @@ dependencies {
 
     implementation project(':androidutils')
 //    implementation 'com.github.Satsna:AndroidUtilsLibrary:1.0.0'
+    implementation 'com.blankj:utilcode:1.9.0'
+
 
 }
