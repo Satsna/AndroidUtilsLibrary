@@ -69,7 +69,7 @@ public class GlideUtil {
      */
     public static void load(Context context, String url, Integer defaultImg, ImageView imageView) {
         if (StringUtil.isEmpty(url)) {
-            load(context, imageView);
+            load(context, defaultImg, imageView);
             return;
         }
         Glide.with(context).load(url).apply(getApply(defaultImg)).into(imageView);
@@ -86,7 +86,7 @@ public class GlideUtil {
      */
     public static void load(Context context, String url, Integer placeHolder, Integer error, ImageView imageView) {
         if (StringUtil.isEmpty(url)) {
-            load(context, imageView);
+            load(context, error, imageView);
             return;
         }
         Glide.with(context).load(url).apply(getApply(placeHolder, error)).into(imageView);
@@ -104,7 +104,7 @@ public class GlideUtil {
      */
     public static void load(Context context, String url, Integer placeHolder, Integer error, Integer fallBack, ImageView imageView) {
         if (StringUtil.isEmpty(url)) {
-            load(context, imageView);
+            load(context, error, imageView);
             return;
         }
         Glide.with(context).load(url).apply(getApply(placeHolder, error, fallBack)).into(imageView);
