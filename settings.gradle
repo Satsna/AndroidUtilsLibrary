@@ -1,1 +1,1 @@
-include ':androidutils', ':example',':okgo'
+include ':androidutils', ':example'
